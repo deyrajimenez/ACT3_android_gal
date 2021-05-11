@@ -5,11 +5,12 @@ void main() => runApp(MiGaleria());
 class MiGaleria extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return new MaterialApp(title: "No tiene efecto", home: new PaginaPrincipal(title: "GridView Galeria de Fotos Jimenez")); //Fin de material.
-    theme:
-    ThemeData(
-      primarySwatch: Colors.purple,
-    );
+    return new MaterialApp(
+        title: "No tiene efecto",
+        theme: ThemeData(
+          primarySwatch: Colors.purple,
+        ),
+        home: new PaginaPrincipal(title: "GridView Galeria de Fotos Jimenez")); //Fin de material.
   } //Fin de widget.
 } //Fin de mi agenda fotografica.
 
